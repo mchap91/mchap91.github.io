@@ -30,11 +30,6 @@ body {
     max-width: 295px;
   }
 
-  @media (max-width:3000px) {
-    img.logo {
-      max-width:295px;
-    }
-  }
 
   nav ul {
     float: right;
