@@ -30,10 +30,8 @@ body {
     max-width: 295px;
   }
 
-  @media (max-width:3000px) {
-    img.logo {
-      max-width:295px;
-    }
+  .logolink {
+    text-decoration: none;
   }
 
   nav ul {
@@ -67,7 +65,7 @@ a.active, a:hover{
 
 @media (max-width: 1386px) {
   img.logo {
-      margin-left: 3%;
+      margin-left: 6%;
   }
   nav ul {
     margin-right: 3%;
@@ -100,7 +98,8 @@ a.active, a:hover{
     
     }
     li a {
-        margin-left: 8px; 
+        margin-left: 8px;
+      
     }
 
     a:hover, a.active {
@@ -300,7 +299,7 @@ a.active, a:hover{
   padding-top: 10px;
   letter-spacing: -1.5px;
   max-width: 100%;
-  padding-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .ppcrew {
@@ -425,11 +424,11 @@ button:hover {
   img.logo {
     max-width:230px;
     padding-top: 35px;
-    margin-left: 3%;
+    margin-left: 5%;
   }
   .checkbtn {
     font-size: 30px;
-    margin-right: 6%;
+    margin-right: 9%;
   }
   .gallery img{
     max-height: 340px;
@@ -446,13 +445,28 @@ button:hover {
   }
   .galleryTan img {
     max-width: 90%;
+    padding-top: 0px;
   }
   .galleryKaf img {
-    max-width: 70%;
+    max-width: 85%;
+    padding-top: 0px;
   }
   .headertan, .headerkaf, .desckaf, .player, .desctan {
     margin-left: 6%;
+    margin-right: 5%
   }
+  .headertan, .headerkaf, .desctan, .desckaf  {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .desctan, .desckaf {
+    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  
 }
 
 @media (max-width:1364px) {
@@ -463,7 +477,7 @@ button:hover {
 
 @media (max-width:1005px) {
   .headertan, .headerkaf, .desckaf, .player, .desctan {
-    margin-left: 2.5%;
+    margin-left: 5%;
     /*font-size: calc(1vw + 0.8rem);*/
   }
 
@@ -471,12 +485,24 @@ button:hover {
 }
 
 @media (max-width:1005px) {
-  .descduds, .banner, .duds, .ppcrew, {
+  /*.descduds, .banner, .duds, .ppcrew, {
     margin-left: 2.5%;
+  }*/
+
+  .descduds {
+    width:90%;
+    font-size: 18px;
   }
+  
+  .banner {
+    padding-top: 0px;
+  }
+
   .headerduds {
-    width: 90%;
+    width: 100%;
+    font-size: 20px;
   }
+  
   .meside, .abouttext, .abouthead {
     padding-left: 2.5%;
     max-width: 100%;
