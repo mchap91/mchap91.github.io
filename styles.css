@@ -21,6 +21,7 @@ body {
   nav{
     height: 174px;
     width: 100%;
+  
   }
 
   img.logo {
@@ -38,6 +39,7 @@ body {
     float: right;
     margin-right: 6%;
     padding-top: 45px;
+    z-index: 150;
   }
 
   nav ul li {
@@ -205,6 +207,7 @@ a.active, a:hover{
   font-size: 2rem;
   letter-spacing: -1.5px;
   max-width: 800px;
+  text-align: left;
 }
 
 .desctan {
@@ -243,7 +246,7 @@ a.active, a:hover{
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: -1.5px;
-  max-width: 75%x;
+  max-width: 75%;
 }
 
 .descjot {
@@ -395,7 +398,8 @@ a.active, a:hover{
 }
 
 .contacttext {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 18px;
   max-width: 60%;
 }
 
@@ -415,58 +419,6 @@ button:hover {
 
 .buttons a {
   text-decoration: none;
-}
-
-@media (max-width:500px) {
-  .meside {
-    display:none;
-  }
-  img.logo {
-    max-width:230px;
-    padding-top: 35px;
-    margin-left: 5%;
-  }
-  .checkbtn {
-    font-size: 30px;
-    margin-right: 9%;
-  }
-  .gallery img{
-    max-height: 340px;
-  }
-}
-
-
-@media (max-width:637px) {
-  .abouttext {
-    margin: 2%;
-  }
-  .galleryTan, .galleryKaf {
-    flex-direction: column;
-  }
-  .galleryTan img {
-    max-width: 90%;
-    padding-top: 0px;
-  }
-  .galleryKaf img {
-    max-width: 85%;
-    padding-top: 0px;
-  }
-  .headertan, .headerkaf, .desckaf, .player, .desctan {
-    margin-left: 6%;
-    margin-right: 5%
-  }
-  .headertan, .headerkaf, .desctan, .desckaf  {
-    padding-top: 10px;
-    font-size: 20px;
-  }
-
-  .desctan, .desckaf {
-    font-weight: 600;
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  
 }
 
 @media (max-width:1364px) {
@@ -489,7 +441,7 @@ button:hover {
     margin-left: 2.5%;
   }*/
 
-  .descduds {
+  .descduds, .descjot {
     width:90%;
     font-size: 18px;
   }
@@ -498,7 +450,7 @@ button:hover {
     padding-top: 0px;
   }
 
-  .headerduds {
+  .headerduds, .headerjot {
     width: 100%;
     font-size: 20px;
   }
@@ -510,6 +462,86 @@ button:hover {
   .aboutlayout {
     gap: 20px;
   }
+  .abouthead {
+    padding-left: 6%;
+  }
 }
+
+
+@media (max-width:637px) {
+  .abouttext {
+    margin: 2%;
+  }
+  .galleryTan, .galleryKaf {
+    flex-direction: column;
+  }
+  .galleryTan img {
+    max-width: 90%;
+    padding-top: 0px;
+  }
+  .headerjot, .descjot {
+    margin-left: 7%;
+  }
+  .galleryKaf img {
+    max-width: 85%;
+    padding-top: 0px;
+  }
+  .headertan, .headerkaf, .desckaf, .player, .desctan {
+    margin-left: 6%;
+    margin-right: 5%;
+  }
+  .headertan, .headerkaf, .desctan, .desckaf  {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .desctan, .desckaf {
+    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .contacttext {
+    max-width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .contactpage {
+    padding-top: 0px;
+  }
+  .contactform {
+    max-width: 100%;
+  }
+}
+
+@media (max-width:500px) {
+  .meside {
+    display:none;
+  }
+  img.logo {
+    max-width:230px;
+    padding-top: 35px;
+    margin-left: 5%;
+  }
+  .checkbtn {
+    font-size: 30px;
+    margin-right: 9%;
+  }
+  .gallery img{
+    max-height: 340px;
+  }
+  .abouthead {
+    font-size: 35px;
+    line-height: 37px;
+    padding-left: 6%;
+  }
+  .abouttext {
+    padding-left: 6%;
+  }
+}
+
+
+
+
 
 
