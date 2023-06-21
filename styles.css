@@ -469,6 +469,17 @@ button:hover {
   }
 }
 
+@media (max-width:940px) {
+  .headertan, .headerkaf {
+    font-size: 20px;
+    max-width: 90%;
+  }
+  .desckaf, .desctan {
+    font-size: 18px;
+    max-width: 90%;
+  }
+}
+
 
 @media (max-width:637px) {
   .abouttext {
